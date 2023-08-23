@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p>SCOREBOARD</p>
+      <div class="teamScores">
+        <h1 class="home">
+          HOME
+          <div class="homeTeam">
+            <h2 id="homeScore">0</h2>
+            <div class="score-btn">
+              <button onclick="add1()" id="one">+1</button>
+              <button onclick="add2()" id="two">+2</button>
+              <button onclick="add3()" id="three">+3</button>
+              <button onclick="minus1()" id="minus">-1</button>
+            </div>
+          </div>
+        </h1>
+        <h1 class="road">
+          ROAD
+          <div class="roadTeam">
+            <h2 id="roadScore">0</h2>
+            <div class="score-btn">
+              <button onclick="roadAdd1()" id="one">+1</button>
+              <button onclick="roadAdd2()" id="two">+2</button>
+              <button onclick="roadAdd3()" id="three">+3</button>
+              <button onclick="roadMinus1()" id="minus">-1</button>
+            </div>
+          </div>
+        </h1>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
